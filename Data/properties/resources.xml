@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<ResourceManifest>
+	<Resources id="Title">
+		<SetDefaults path="fonts" idprefix="FONT_" />
+		<Font id="ARIAL"		path="arial.txt"/>
+		<Font id="NORMAL"		path="normal.txt"/>
+		<Font id="HUX"			path="huxoutline.txt"/>
+		
+		<SetDefaults path="images" idprefix="IMAGE_"/>
+		<Image id="TITLE_SCREEN"				path="titlescreen"/>
+		<Image id="LOADING_BAR"					path="loadingbar"/>
+	</Resources>
+	<Resources id="Game">
+		<SetDefaults path="images" idprefix="IMAGE_"/>
+		<Image id="FRAME"						path="frame"/>
+		<Image id="NP_FRAME"					path="np_frame"/>
+		<Image id="SCORE_FRAME"					path="score_frame"/>
+		<Image id="AS_FRAME"					path="as_frame"/>
+		<Image id="OPPONENT_FRAME"				path="opponent_frame"/>
+		<Image id="BOARD_FRAME"					path="board_frame"/>
+		<Image id="BTN_MENU"					path="btn_menu"/>
+		<Image id="READY"						path="ready"/>
+		<Image id="WIN"							path="win"/>
+		<Image id="LOSE"						path="lose"/>
+		<Image id="ROUND_POINT"					path="round_point"/>
+		
+		<Image id="GSET_MODERN"					path="gset_modern"/>
+		<Image id="GSET_CLASSIC"				path="gset_classic"/>
+		<Image id="GSET_OTHER1"					path="gset_other1"/>
+		<Image id="GSET_OTHER2"					path="gset_other2"/>
+		<Image id="GSET_SECRET"					path="gset_secret"/>
+		<Image id="BG_MODERN"					path="bg_modern"/>
+		<Image id="BG_CLASSIC"					path="bg_classic"/>
+		<Image id="BG_OTHER1"					path="bg_other1"/>
+		<Image id="BG_OTHER2"					path="bg_other2"/>
+		<Image id="BG_SECRET"					path="bg_secret"/>
+		
+		<Image id="BTN_MENU_ADVENTURE_UP"		path="btn_adventure_up"/>
+		<Image id="BTN_MENU_ADVENTURE_OVER"		path="btn_adventure_over"/>
+		<Image id="BTN_MENU_ADVENTURE_DOWN"		path="btn_adventure_down"/>
+		<Image id="BTN_MENU_QUICK_UP"			path="btn_quick_up"/>
+		<Image id="BTN_MENU_QUICK_OVER"			path="btn_quick_over"/>
+		<Image id="BTN_MENU_QUICK_DOWN"			path="btn_quick_down"/>
+		<Image id="BTN_MENU_OPTIONS_UP"			path="btn_options_up"/>
+		<Image id="BTN_MENU_OPTIONS_OVER"		path="btn_options_over"/>
+		<Image id="BTN_MENU_OPTIONS_DOWN"		path="btn_options_down"/>
+		<Image id="BTN_MENU_QUIT_UP"			path="btn_quit_up"/>
+		<Image id="BTN_MENU_QUIT_OVER"			path="btn_quit_over"/>
+		<Image id="BTN_MENU_QUIT_DOWN"			path="btn_quit_down"/>
+		<Image id="BLUE_SKY"					path="sky"/>
+		<Image id="MAIN_MENU"					path="mm"/>
+		
+		<Image id="STAGE_FRAME"					path="stage_frame"/>
+		
+		<Image id="DIALOG"						path="dialog"/>
+		<Image id="DIALOG_BTN"					path="dialog_btn"/>
+		<Image id="CHECKBOX"					path="checkbox"/>
+		<Image id="SLIDER"						path="slider"/>
+		<Image id="SLIDER_THUMB"				path="slider_thumb"/>
+		
+		<Image id="MONST_1"						path="monst_1"			cols="5"	rows="3" anim="pingpong" framedelay="6" begindelay="300"/>
+		
+		<SetDefaults path="sounds" idprefix="SOUND_"/>
+		<Sound id="GETSET"						path="getset"/>
+		<Sound id="CHANGE"						path="change"/>
+		<Sound id="LAND"						path="land"/>
+		<Sound id="LEVELUP"						path="levelup"/>
+		<Sound id="STRIKE"						path="strike"/>
+		<Sound id="LOST"						path="lost"/>
+		<Sound id="CRUSHBAR"					path="crushbar"/>
+		<Sound id="SMASH"						path="smash"/>
+		<Sound id="SELECT"						path="select"/>
+		
+	</Resources>
+</ResourceManifest>
